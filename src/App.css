@@ -66,3 +66,44 @@ img {
     padding: 25px 12px;
   }
 }
+/* ===== Action Buttons Styling ===== */
+
+button {
+  margin: 8px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* RLE Compression Button */
+button:nth-of-type(1) {
+  background-color: #2563eb;
+}
+
+/* Remove Background Button */
+button:nth-of-type(2) {
+  background-color: #16a34a;
+}
+
+/* Compress Image Button */
+button:nth-of-type(3) {
+  background-color: #9333ea;
+}
+
+/* Hover Effect */
+button:hover {
+  filter: brightness(1.1);
+  transform: translateY(-2px);
+}
+
+/* Disabled Button */
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
